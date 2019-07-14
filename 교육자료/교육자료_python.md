@@ -49,7 +49,7 @@ string as list
 list
 
 
-- 자료 : https://notebooks.azure.com/Microsoft/projects/samples/html/Introduction%20to%20Python.ipynb
+- 자료 : [Introduction_to_Python.ipynb](Introduction_to_Python.ipynb)
 - 퀴즈 : https://www.w3resource.com/python-exercises/python-basic-exercises.php
     - 1, 6, 8, 138, 147, 148
 
@@ -119,7 +119,7 @@ range()
 
 # comprehensive List
 
-- 자료 : https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb
+- 자료 : [List_Comprehensions.ipynb](List_Comprehensions.ipynb)
 
 
 
