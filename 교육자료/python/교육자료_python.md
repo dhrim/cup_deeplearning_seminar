@@ -144,6 +144,6 @@ if __name__=="__main__"
 
 
 # Class
-자료 : <<TODO>>
+
 
 
