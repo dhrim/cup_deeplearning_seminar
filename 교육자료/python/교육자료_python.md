@@ -41,7 +41,10 @@ $ pip install SomePackage==1.0.4     # specific version
 $ pip install 'SomePackage>=1.0.4'     # minimum version
 ```
 
-# 소개
+# 교육 자료
+[python.ipynb](python.ipynb)
+
+# 기반
 스트링, 숫자, 변수, print()
 
 string as list
@@ -49,31 +52,25 @@ string as list
 list
 
 
-- 자료 : [Introduction_to_Python.ipynb](Introduction_to_Python.ipynb)
-- 퀴즈 : https://www.w3resource.com/python-exercises/python-basic-exercises.php
-    - 1, 6, 8, 138, 147, 148
-
-
 # 데이터 타입
 numbers, boolean, string index
 
 tuple, list, sets, dictionay
 
-- 자료 : https://www.w3resource.com/python/python-data-type.php
+- 참고자료 : https://www.w3resource.com/python/python-data-type.php
 
 
 
 # 연산자
 
-- 자료 : https://www.w3resource.com/python/python-operators.php
+- 참고자료 : https://www.w3resource.com/python/python-operators.php
 
 
 
 # 조건문
 if, elif, else
 
-- 자료 : https://www.w3resource.com/python/python-if-else-statements.php
-- 퀴즈 : https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php
+- 참고자료 : https://www.w3resource.com/python/python-if-else-statements.php
 
 
 
@@ -84,20 +81,17 @@ for
 
 iteration for data types
 
-- 자료 : https://www.w3resource.com/python/python-for-loop.php
-- 퀴즈 : https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php
+- 참고자료 : https://www.w3resource.com/python/python-for-loop.php
 
 
 
 # List 상세
-- 자료 : https://www.w3resource.com/python/python-list.php
-- 퀴즈 : list : https://www.w3resource.com/python-exercises/list/
+- 참고자료 : https://www.w3resource.com/python/python-list.php
 
 
 
 # Dictionary 상세
-- 자료 : https://www.w3resource.com/python/python-dictionary.php
-- 퀴즈 : dictonary : https://www.w3resource.com/python-exercises/dictionary/
+- 참고자료 : https://www.w3resource.com/python/python-dictionary.php
 
 
 
@@ -113,29 +107,26 @@ list(), dict(), set(), tuple()
 
 range()
 
-- 자료 : https://www.w3resource.com/python/built-in-function/
+- 참고자료 : https://www.w3resource.com/python/built-in-function/
 
 
 
 # comprehensive List
 
-- 자료 : [List_Comprehensions.ipynb](List_Comprehensions.ipynb)
 
 
 
 # file io
-- 자료 : https://wikidocs.net/26
-- 퀴즈 : https://www.w3resource.com/python-exercises/file/index.php
+- 참고자료 : https://wikidocs.net/26
 
 
 # 함수
-- 자료 : https://www.w3resource.com/python/python-user-defined-functions.php
-- 퀴즈 : https://www.w3resource.com/python-exercises/python-functions-exercises.php
+- 참고자료 : https://www.w3resource.com/python/python-user-defined-functions.php
 
 
 
 # 모듈
-- 자료 : https://www.w3resource.com/python/python-module.php
+- 참고자료 : https://www.w3resource.com/python/python-module.php
 
 
 
