@@ -115,11 +115,6 @@ range()
 
 
 
-
-# file io
-- 참고자료 : https://wikidocs.net/26
-
-
 # 함수
 - 참고자료 : https://www.w3resource.com/python/python-user-defined-functions.php
 
