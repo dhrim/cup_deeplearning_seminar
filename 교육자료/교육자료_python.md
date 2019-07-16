@@ -1,7 +1,6 @@
-# 교육 목표
+# 실습 자료
 
-딥러닝 코딩을 위한 python의 문법과 사용을 익힌다.
-
+[python.ipynb](python.ipynb)
 
 
 # 명령어 python, pip
@@ -41,8 +40,6 @@ $ pip install SomePackage==1.0.4     # specific version
 $ pip install 'SomePackage>=1.0.4'     # minimum version
 ```
 
-# 교육 자료
-[python.ipynb](python.ipynb)
 
 # 기반
 스트링, 숫자, 변수, print()
