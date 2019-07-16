@@ -2,6 +2,9 @@
 
 [python.ipynb](python.ipynb)
 
+- 참고 자료
+    - cheat sheet : https://datacamp-community-prod.s3.amazonaws.com/e30fbcd9-f595-4a9f-803d-05ca5bf84612
+
 
 # 명령어 python, pip
 
