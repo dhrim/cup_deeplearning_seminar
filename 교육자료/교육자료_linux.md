@@ -1,4 +1,9 @@
-# Linux 관련 사실
+# Linux 실습 환경
+
+https://www.webminal.org
+
+
+# Linux 디렉토리 관련
 
 - 디렉토리는 root라고 하는 '/'로 시작한다.
 
