@@ -41,7 +41,7 @@ https://console.cloud.google.com
 
 좌측 메뉴에서 ‘Compute Engine’ > ‘VM instances’를 클릭
 
-![vm_instance](/img/gcp/vm_instance.png)
+![vm_instance](img/gcp/vm_instance.png)
 
 
 
@@ -49,7 +49,7 @@ https://console.cloud.google.com
 
 ‘Create’ 클릭
 
-![create](/img/gcp/create.png)
+![create](img/gcp/create.png)
 
 
 
@@ -57,7 +57,7 @@ https://console.cloud.google.com
 
 ‘Marketplace’를 클릭
 
-![marketplace](/img/gcp/marketplace.png)
+![marketplace](img/gcp/marketplace.png)
 
 
 
@@ -67,7 +67,7 @@ https://console.cloud.google.com
 
 검색된 결과에서 ‘Deep Learning VM’ 클릭
 
-![deeplearningvm](/img/gcp/deeplearningvm.png)
+![deeplearningvm](img/gcp/deeplearningvm.png)
 
 
 
@@ -75,7 +75,7 @@ https://console.cloud.google.com
 
 ‘LAUNCH ON COMPUTE ENGINE’ 클릭
 
-![launch](/img/gcp/launch.png)
+![launch](img/gcp/launch.png)
 
 
 
@@ -83,7 +83,7 @@ https://console.cloud.google.com
 
 가격은 다음과 같다.
 
-![price](/img/gcp/price.png)
+![price](img/gcp/price.png)
 
 
 
@@ -91,7 +91,7 @@ https://console.cloud.google.com
 
 프로젝트를 선택. 여기서는 기존에 생성되어 있던 ‘dhrim-test’를 선택. 그리고 하단의 ‘OPEN’ 클릭.
 
-![open_configure](/img/gcp/open_configure.png)
+![open_configure](img/gcp/open_configure.png)
 
 
 
@@ -106,7 +106,7 @@ https://console.cloud.google.com
 나머지는 default 그대로 하고 좌측 하단의 ‘Deploy’를 클릭.
 
 
-![configure](/img/gcp/configure.png)
+![configure](img/gcp/configure.png)
 
 
 # Filewall Rule 생성
@@ -121,7 +121,7 @@ GCP console의 좌측 메뉴 ‘VPC network’ > ‘Filewall rules’ 클릭.
 
 상단의 ‘CREATE FIREWALL RULE’ 클릭
 
-![create_filewall](/img/gcp/create_filewall.png)
+![create_filewall](img/gcp/create_filewall.png)
 
 
 
@@ -137,7 +137,7 @@ Source Ip ranges에 ‘0.0.0.0/0’ 입력.
 
 ‘Protocols and ports’ > ‘Specified protocols and ports’ 선택하고 ‘tcp’ 체크. 값에 8888 입력.
 
-![firewall_configure](/img/gcp/firewall_configure.png)
+![firewall_configure](img/gcp/firewall_configure.png)
 
 하단 ‘Create’ 클릭.
 
@@ -164,7 +164,7 @@ Source Ip ranges에 ‘0.0.0.0/0’ 입력.
 
 스펙과 가격은 다음과 같다.
 
-![gce_price](/img/gcp/gce_price.png)
+![gce_price](img/gcp/gce_price.png)
 
 
 
@@ -181,7 +181,7 @@ TensorFlow는 어짜피 docker로 다시 설치해야 한다. 단지 CE를 편�
 
 메뉴 ‘Compute Engine’ > ‘VM 인스턴스’에서 해당 인스턴스 선택하고 우측 ‘SSH’ > ‘브라우저 창에서 열기’ 클릭.
 
-![open_ssh](/img/gcp/open_ssh.png)
+![open_ssh](img/gcp/open_ssh.png)
 
 
 
@@ -347,7 +347,7 @@ $ curl -H "Metadata-Flavor: Google" http://169.254.169.254/computeMetadata/v1/in
 ```
 혹은 GCP console의 VM instance 리스트에서
 
-![vm_list](/img/gcp/vm_list.png)
+![vm_list](img/gcp/vm_list.png)
 
 
 
@@ -377,7 +377,7 @@ http://localhost:8888/?token=9770cdab3ee3f69b4f7af43a36e8d042937a1bb1df4739d2 ::
 ‘Password or token’에 요 토큰을 입력해준다.
 
 
-![jupyter_auth](/img/gcp/jupyter_auth.png)
+![jupyter_auth](img/gcp/jupyter_auth.png)
 
 
 
@@ -385,7 +385,7 @@ http://localhost:8888/?token=9770cdab3ee3f69b4f7af43a36e8d042937a1bb1df4739d2 ::
 
 다음은 실행된 모습
 
-![jupyter_look](/img/gcp/jupyter_look.png)
+![jupyter_look](img/gcp/jupyter_look.png)
 
 
 
@@ -452,17 +452,13 @@ drwxr-xr-x 5 dhrim00 dhrim00 4096 Jun 21 06:21 ..
 - GCP
 
     - CE 이미지 고르기 : https://cloud.google.com/deep-learning-vm/docs/images
-
     - 딥러닝 VM 이미지 홈 : https://cloud.google.com/deep-learning-vm/
 
 - Docker
 
     - tensorflow 이미지 리스트 : https://hub.docker.com/r/tensorflow/tensorflow/tags?page=14
-
     - Ubuntu에 Docker 설치 : https://www.bsidesoft.com/?p=7820
-
     - Debian에 Docker 설치 : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-9
-
     - docker로 환경 구축하기 : http://moducon.kr/2018/wp-content/uploads/sites/2/2018/12/leesangsoo_slide.pdf
 
 
