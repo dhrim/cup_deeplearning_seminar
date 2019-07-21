@@ -2,6 +2,7 @@
 
 - [deep_learning_입문.pttx](교육자료/deep_learning_입문.pptx)
 - 실습 자료
+    - [keras_and_dnn.ipynb](keras_and_dnn.ipynb)
     - [iris_dnn.ipynb](deep_learning/iris_dnn.ipynb)
     - [iris_dnn_short.ipynb](deep_learning/iris_dnn_short.ipynb)
 
@@ -73,7 +74,7 @@ from tensorflow.keras import Sequential
 model = Sequential([
     Dense(4, activation='relu', input_shape(5,)),
     Dense(4, activation='relu'),
-    Dense(1)    
+    Dense(1)
 ])
 ```
 
@@ -219,6 +220,13 @@ model.compile(
 model.compile(..., optimizer='SGD', ...)
 ```
 
+```
+from tensorflow.keras import optimizers
+
+sgd = optimizers.SGD(lr=0.001)
+model.compile(..., optimizer=sgd, ...)
+```
+
 reference : https://www.tensorflow.org/api_docs/python/tf/keras/optimizers
 
 <br>
@@ -304,6 +312,51 @@ loss, acc = model.evaluate(test_x, test_y)
 ```
 prediction = model.predict(test_x)
 ```
+
+
+# 모델 저장과 로딩
+
+https://www.tensorflow.org/beta/guide/keras/saving_and_serializing
+
+## 모델 전체 저장과 로딩
+
+```
+model.save('my_model.h5')
+new_model = keras.models.load_model('my_model.h5')
+```
+
+## 모델 설정만 저장과 로딩
+
+```
+config = model.get_config()
+new_model = keras.Model.from_config(config)
+```
+
+```
+json_config = model.to_json()
+with open('model_config.json', 'w') as json_file:
+    json_file.write(json_config)
+
+with open('model_config.json') as json_file:
+    json_config = json_file.read()
+new_model = keras.models.model_from_json(json_config)
+```
+
+## 모델 웨이트만 저장과 로딩
+
+```
+model.save_weights('model_weight.h5')
+new_model.load_weights('model_weight.h5')
+```
+
+## TensorFlow 포멧의 저장과 로딩
+
+```
+keras.experimental.export_saved_model(model, 'model_path')
+
+new_model = keras.experimental.load_from_saved_model('model_path')
+```
+
 
 
 
