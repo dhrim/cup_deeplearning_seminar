@@ -1,10 +1,11 @@
 # 딥러닝 개요
 
-- [deep_learning_입문.pttx](교육자료/deep_learning_입문.pptx)
+- [deep_learning_입문.pttx](deep_learning_입문.pptx)
 - 실습 자료
     - [keras_and_dnn.ipynb](keras_and_dnn.ipynb)
     - [iris_dnn.ipynb](deep_learning/iris_dnn.ipynb)
     - [iris_dnn_short.ipynb](deep_learning/iris_dnn_short.ipynb)
+- 교육 시 실습한 결과 : [keras_and_dnn_practice.ipynb](keras_and_dnn_practice.ipynb)
 
 <br>
 

@@ -1,6 +1,9 @@
 # Numpy
 
-- 실습 자료 : [numpy.ipynb](numpy.ipynb)
+- 실습 자료
+    - [numpy.ipynb](numpy.ipynb)
+    - [numpy_quiz_for_deeplearning.ipynb](numpy_quiz_for_deeplearning.ipynb)
+
 - 교육 시 실습한 결과 : [numpy_practice.ipynb](numpy_practice.ipynb)
 - 참고 자료
     - API : https://docs.scipy.org/doc/numpy/genindex.html
