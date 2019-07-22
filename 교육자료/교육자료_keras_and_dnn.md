@@ -109,6 +109,7 @@ https://www.tensorflow.org/api_docs/python/tf/keras/layers
 - MaxPool2D : CNN
 - Flatten : 2D, 3D 데이터를 Dense 1D로.
 - DropOut : overfitting 처리
+- BatchNormalization : overfitting 처리
 
 <br>
 
