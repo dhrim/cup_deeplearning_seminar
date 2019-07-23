@@ -15,7 +15,10 @@
 
 # Panda
 
-- 실습 자료 : [pandas.ipynb](pandas.ipynb)
+- 실습 자료
+    - [pandas.ipynb](pandas.ipynb)
+    - [pandas_quiz_for_deeplearning.ipynb]() <<TODO>>
+
 - 교육 시 실습한 결과 : [pandas_practice.ipynb](pandas_practice.ipynb)
 - 참고 자료
     - 공식 홈의 10분 요약 : https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
@@ -28,7 +31,9 @@
 
 # Matplot
 
-- 실습 자료 : [matplot.ipynb](matplot.ipynb)
+- 실습 자료
+    - [matplot.ipynb](matplot.ipynb)
+    - [matplot_quiz_for_deeplearning.ipynb](matplot_quiz_for_deeplearning.ipynb)
 - 교육 시 실습한 결과 : [matplot_practice.ipynb](matplot_practice.ipynb)
 - 참고자료
     - https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=_1SPvlnh1q-0
