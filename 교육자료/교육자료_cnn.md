@@ -2,6 +2,7 @@
 
 - [deep_learning_입문.pttx](deep_learning_입문.pptx)
 - 실습 자료
-    - [mnist_cnn.ipynb](deep_learning/mnist_cnn.ipynb)
-    - [cnn_more.ipynb](deep_learning/cnn_more.ipynb)
-- 교육 시 실습한 결과 :
+    - [minist_cnn.ipynb](deep_learning/minist_cnn.ipynb)
+    - [cifar10_ccn.ipynb](deep_learning/cifar10_ccn.ipynb)
+- 교육 시 실습한 결과
+    - [mnist_cnn_practice.ipynb](deep_learning/mnist_cnn_practice.ipynb)

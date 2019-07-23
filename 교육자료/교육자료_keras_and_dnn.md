@@ -6,7 +6,11 @@
     - [iris_dnn_and_optimizer.ipynb](deep_learning/iris_dnn_and_optimizer.ipynb)
     - [iris_dnn_with_category_index.ipynb](deep_learning/iris_dnn_with_category_index.ipynb)
     - [mnist_dnn.ipynb](deep_learning/mnist_dnn.ipynb)
-- 교육 시 실습한 결과 : [keras_and_dnn_practice.ipynb](deep_learning/keras_and_dnn_practice.ipynb)
+- 교육 시 실습한 결과
+    - [keras_and_dnn_practice.ipynb](deep_learning/keras_and_dnn_practice.ipynb)
+    - [iris_dnn_and_optimizer_practice.ipynb](deep_learning/iris_dnn_and_optimizer_practice.ipynb)
+    - [iris_dnn_with_category_index_practice.ipynb](deep_learning/iris_dnn_with_category_index_practice.ipynb)
+    - [mnist_dnn_practice.ipynb](deep_learning/mnist_dnn_practice.ipynb)
 
 <br>
 
