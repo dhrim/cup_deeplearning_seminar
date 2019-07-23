@@ -362,4 +362,51 @@ new_model = keras.experimental.load_from_saved_model('model_path')
 
 
 
+# loss categorical_crossentropy 관련
+
+2개의 사용 방법
+
+- categorical_crossentropy
+- sparse_categorical_crossentropy
+
+
+## categorical_crossentropy
+
+y의 값이 one hot encoding인 경우
+```
+1,0,0
+0,1,0
+0,0,1
+```
+
+출력 레이어 설정
+```
+model.add(Dense(3, activation="softmax")) # 출력 레이어
+```
+
+loss 설정
+```
+model.compile(..., loss='categorical_crossentropy')
+```
+
+## sparse_categorical_crossentropy
+
+y의 값이 숫자 하나이며, category index 인 경우
+```
+0
+1
+2
+```
+
+출력 레이어 설정
+```
+model.add(Dense(3, activation="softmax")) # 출력 레이어. 1 이 아니라 3으로 설정
+```
+
+loss 설정
+```
+model.compile(..., loss='sparse_categorical_crossentropy')
+```
+
+
 
