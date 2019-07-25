@@ -1,10 +1,10 @@
 # Numpy
 
 - 실습 자료
-    - [numpy.ipynb](numpy.ipynb)
-    - [numpy_quiz_for_deeplearning.ipynb](numpy_quiz_for_deeplearning.ipynb)
+    - [numpy.ipynb](library/numpy.ipynb)
+    - [numpy_quiz_for_deeplearning.ipynb](library/numpy_quiz_for_deeplearning.ipynb)
 
-- 교육 시 실습한 결과 : [numpy_practice.ipynb](numpy_practice.ipynb)
+- 교육 시 실습한 결과 : [numpy_practice.ipynb](library/numpy_practice.ipynb)
 - 참고 자료
     - API : https://docs.scipy.org/doc/numpy/genindex.html
     - 주요 요약 : http://riseshia.github.io/2017/01/30/numpy-tutorial-with-code.html
@@ -16,10 +16,10 @@
 # Panda
 
 - 실습 자료
-    - [pandas.ipynb](pandas.ipynb)
-    - [pandas_quiz_for_deeplearning.ipynb]() <<TODO>>
+    - [pandas.ipynb](library/pandas.ipynb)
+    - [TODO](library/pandas_quiz_for_deeplearning.ipynb)
 
-- 교육 시 실습한 결과 : [pandas_practice.ipynb](pandas_practice.ipynb)
+- 교육 시 실습한 결과 : [pandas_practice.ipynb](library/pandas_practice.ipynb)
 - 참고 자료
     - 공식 홈의 10분 요약 : https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
     - cheat sheet :
@@ -32,9 +32,9 @@
 # Matplot
 
 - 실습 자료
-    - [matplot.ipynb](matplot.ipynb)
-    - [matplot_quiz_for_deeplearning.ipynb](matplot_quiz_for_deeplearning.ipynb)
-- 교육 시 실습한 결과 : [matplot_practice.ipynb](matplot_practice.ipynb)
+    - [matplot.ipynb](library/matplot.ipynb)
+    - [matplot_quiz_for_deeplearning.ipynb](library/matplot_quiz_for_deeplearning.ipynb)
+- 교육 시 실습한 결과 : [matplot_practice.ipynb](library/matplot_practice.ipynb)
 - 참고자료
     - https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=_1SPvlnh1q-0
     - https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.01-Simple-Line-Plots.ipynb
