@@ -145,38 +145,6 @@ Source Ip ranges에 ‘0.0.0.0/0’ 입력.
 
 
 
-# GCE 생성
-‘Compute Engine’ > ‘VM Instance’ 메뉴 선택.
-
-‘Create’ 버튼 클릭.
-
-
-
-<br>
-
-‘Market Place’ 메뉴 선택하고, 상단 검색창에 ‘TensorFlow CPU Production’로 검색.
-
-
-
-‘TensorFlwo CPU Production’ 클릭
-
-
-
-스펙과 가격은 다음과 같다.
-
-![gce_price](img/gcp/gce_price.png)
-
-
-
-<br>
-
-TensorFlow는 어짜피 docker로 다시 설치해야 한다. 단지 CE를 편하게 생성하자는 것.
-
-‘LAUNCH ON COMPUTE ENGINE’ 클릭.
-
-이름만 ‘tensorflow1-10-python3-cpu-1’으로 하고, 전부 default값을 사용하여 ‘Deploy’ 버튼 클릭.
-
-
 # SSH 연결
 
 메뉴 ‘Compute Engine’ > ‘VM 인스턴스’에서 해당 인스턴스 선택하고 우측 ‘SSH’ > ‘브라우저 창에서 열기’ 클릭.
@@ -327,6 +295,8 @@ tcp6       0      0 :::8888                 :::*                    LISTEN
 
 
 # Docker내의 설치
+
+<<TODO: sheel 연결방법 명시>>
 
 git, wget, protoc 설치
 ```
