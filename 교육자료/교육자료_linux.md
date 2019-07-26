@@ -282,6 +282,9 @@ $ zip -r dogs-cat.zip dogs-cat
 ## 프로그램 설치 : apt
 
 ```
+# apt 정보 업데이트
+$ apt-get update
+
 $ 프로그램 설치
 $ apt inatll git
 ```
