@@ -40,8 +40,10 @@ https://www.webminal.org
 	- zip 파일 압축 풀기 : unzip
 
 
-- 프로그램 설치 : apt
-- 파일 내용으로 검색 : grep
+- 기타
+    - 프로그램 설치 : apt
+    - 파일 내용으로 검색 : grep
+    - 갯수 세기 : wc
 
 
 # 디렉토리/파일
@@ -211,35 +213,49 @@ $ wget http://some.com/path/file_name
 
 # 압축
 
-## tar 파일 압출 풀기 : tar
+## tar 파일 압출 풀기/하기 : tar
 
 ```
-# 압축된 tar 파일을 풀기
+# 압축된 tar.gz 파일을 풀기
 $ tar xvfz file.tar.gz
 
 # tar 파일을 풀기
 $ tar xvf file.tar
+
+# tar로 묶기
+$ tar cvf dir.tar dir
+
+# tar.gz 로 압축 하기
+$ tar cvfz dir.tar.gz dir
 ```
 
 
-## rar 파일 압축 풀기 : unrar
+## rar 파일 압축 풀기/하기 : unrar, rar
 
 ```
 # rar 파일 풀기
 $ unrar x file.rar
+
+# raw 압축 하기
+$ rar a -r dir.rar dir
 ```
 
 
-## zip 파일 압축 풀기 : unzip
+## zip 파일 압축 풀기/하기 : unzip, zip
 
 ```
 # zip 파일 풀기
 $ unzip file.zip
+
+# zip으로 압축 하기
+$ zip -r dogs-cat.zip dogs-cat
 ```
 
 
+# 기타
 
-# 프로그램 설치 : apt
+
+## 프로그램 설치 : apt
 
 ```
 $ 프로그램 설치
@@ -247,7 +263,7 @@ $ apt inatll git
 ```
 
 
-# 파일 내용으로 검색 : grep
+## 파일 내용으로 검색 : grep
 
 ```
 # 현재 디렉토리에서 .txt로 끝나는 파일중에 hi가 포함된 부분 찾기
@@ -258,5 +274,15 @@ $ grep -r hi .
 ```
 
 
+# 갯수 세기 : wc
+
+```
+# 특정 파일의 줄수 세기
+$ wc some_file.txt
+
+# 현 디렉토리의 파일 수 세기
+$ ls -al | wc
+
+```
 
 
