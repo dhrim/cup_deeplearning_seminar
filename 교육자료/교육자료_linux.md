@@ -14,6 +14,10 @@ https://www.webminal.org
 
 # Linux 명령어
 
+- python
+    - 실행 : python
+    - 라이브러리 설치 : pip
+
 - 디렉토리/파일
 	- 디렉토리 위치 이동 : cd
 	- 현재 디렉토리 보기 : pwd
@@ -44,6 +48,26 @@ https://www.webminal.org
     - 프로그램 설치 : apt
     - 파일 내용으로 검색 : grep
     - 갯수 세기 : wc
+
+
+# python
+
+## 실행
+
+```
+# 스크립트 my_script.py 실행
+$ python my_script.py
+
+```
+
+
+## pip
+
+```
+# 라이브러리 some 설치
+$ pip install some
+
+```
 
 
 # 디렉토리/파일
