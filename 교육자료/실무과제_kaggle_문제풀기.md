@@ -8,7 +8,7 @@ http://kaggle.com/c/dogs-vs-cats
 
 일반 CNN으로 분류를 하고 VGG16를 가져와 전이학습 한다.
 
-실습 자료 : [실무과제_kaggle_문제풀기.ipynb](deep_learning/실무과제_kaggle_문제풀기.ipynb)
+실습 자료 : [실무과제_kaggle_문제풀기.ipynb](deep_learning/실무과제_kaggle_문제풀기.ipynb)
 
 <br>
 
