@@ -56,7 +56,7 @@ dogs-cats\
 
 # 실습. github 프로젝트 다운받아 실행
 
-- https://github.com/hunkim/DeepLearningZeroToAll를 다운로드
+- https://github.com/hunkim/DeepLearningZeroToAll 를 다운로드
 
 - ipynb/lab-11-0-cnn_basics.ipynb을 jupyter에서 실행
 
