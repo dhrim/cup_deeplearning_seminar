@@ -103,6 +103,8 @@ path/to/img2.jpg 120,300,250,600,2
 레이블링을 위한 다음과 같은 툴을 사용할 수 있다.
 - https://github.com/Cartucho/OpenLabeling
 - https://github.com/tzutalin/labelImg
+- https://github.com/AlexeyAB/Yolo_mark
+
 <br>
 
 
