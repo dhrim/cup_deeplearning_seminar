@@ -290,21 +290,8 @@ dhrim00@tensorflow1-10-vm:/jet/prs$ netstat -an | grep 8888
 tcp6       0      0 :::8888                 :::*                    LISTEN
 ```
 
-여기 까지 하면 SSH 콘솔을 닫아도 계속 실행되고 있다. SSH 콘솔 닫아도 juptyer 사용하는데 문제 없다는 얘기다.
+SSH 콘솔을 닫아도 계속 실행되고 있다. SSH 콘솔 닫아도 juptyer 사용하는데 문제 없다.
 
-
-
-# Docker내의 설치
-
-<<TODO: sheel 연결방법 명시>>
-
-git, wget, protoc 설치
-```
-root@d7a458e07030:/notebooks# apt upgrade
-root@d7a458e07030:/notebooks# apt install git
-root@d7a458e07030:/notebooks# apt install wget
-root@d7a458e07030:/notebooks# apt install protobuf-compiler
- ```
 
 
 # Jupyter 연결
@@ -362,10 +349,11 @@ http://localhost:8888/?token=9770cdab3ee3f69b4f7af43a36e8d042937a1bb1df4739d2 ::
 <br>
 
 
-Docker 팁들
+# Docker 팁들
 
 
-Docker VM에 연결
+## Docker VM에 연결
+
 다음과 같은 명령어로 Docker에 접속할 수 있다.
 
 ```
@@ -384,7 +372,7 @@ root@c40ac72ad4a6:/notebooks# touch new_file.txt
 ```
 
 
-# Docker에 생성될 파일들
+## Docker에 생성된 파일들
 
 Docker의 파일 시스템은 ${Home}/notebook에 마운트 되어 있다.
 
