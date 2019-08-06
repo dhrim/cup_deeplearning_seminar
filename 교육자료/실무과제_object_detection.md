@@ -1,4 +1,4 @@
-# Object Detection
+# 실무 과제 - Object Detection
 
 다음 2가지 작업을 실행
 
