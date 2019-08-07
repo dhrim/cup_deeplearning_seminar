@@ -36,6 +36,8 @@ TensorFlow나 pythoh 기반이 아닌 c/c++로 구현된 Darknet을 기반으로
 
 - 실습 자료 : [object_detection_yolo_darknet.ipynb](deep_learning/object_detection_yolo_darknet.ipynb)
 
+- 적용 예 : https://drive.google.com/file/d/1ZGiJtRBG8wyI3nn8oI9iKqJC4zOitghT/view?usp=sharing
+
 <br>
 
 
