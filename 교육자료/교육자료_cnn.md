@@ -1,7 +1,6 @@
-# 딥러닝 개요
+# CNN
 
 - [deep_learning_입문.pptx](deep_learning/deep_learning_입문.pptx)
-- [알파고_학습_이해하기.pptx](deep_learning/알파고_학습_이해하기.pptx)
 - 실습 자료
     - [mnist_cnn.ipynb](deep_learning/mnist_cnn.ipynb)
     - [cifar10_ccn.ipynb](deep_learning/cifar10_ccn.ipynb)
