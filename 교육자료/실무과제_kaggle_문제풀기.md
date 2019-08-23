@@ -115,11 +115,11 @@ dogs_cata/
 
 일반 CNN 사용
 ```
-model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(224, 224, 3)))
+model.add(Input((224,224,3)))
+model.add(Conv2D(32, (3, 3)))
 model.add(MaxPooling2D((2, 2)))
-model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(Conv2D(64, (3, 3)))
 model.add(MaxPooling2D((2, 2)))
-model.add(Conv2D(64, (3, 3), activation='relu'))
 
 model.add(layers.Flatten())
 model.add(layers.Dense(1024, activation='relu'))
